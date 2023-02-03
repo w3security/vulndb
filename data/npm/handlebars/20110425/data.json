@@ -1,0 +1,36 @@
+{
+	"title": "Cross-Site Scripting",
+	"credit": [],
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<=1.0.0-beta.3",
+		"unaffected": ">1.0.0-beta.3"
+	},
+	"CVSSv3": "",
+	"severity": "medium",
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [],
+		"NSP": ""
+	},
+	"patches": [
+		{
+			"urls": [
+				"file://handlebars_20110425_0_0_b291a1ad8c9a33f834d126450635f0b6ca546a0c.patch"
+			],
+			"version": "<=1.0.0-beta.3",
+			"modificationTime": "2015-11-06T02:09:36.180Z",
+			"comments": [
+				"https://github.com/rgrove/handlebars.js/commit/b291a1ad8c9a33f834d126450635f0b6ca546a0c.patch"
+			],
+			"id": "patch:npm:handlebars:20110425:0"
+		}
+	],
+	"moduleName": "handlebars",
+	"creationTime": "2015-11-06T02:09:36.180Z",
+	"publicationTime": "2015-11-06T02:09:36.180Z",
+	"modificationTime": "2015-11-06T02:09:36.180Z",
+	"disclosureTime": "2015-11-06T02:09:36.180Z"
+}

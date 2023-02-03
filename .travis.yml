@@ -1,0 +1,51 @@
+sudo: false
+
+language: node_js
+
+cache:
+  directories:
+  - node_modules
+
+notifications:
+  email: false
+
+node_js:
+- "4"
+
+before_install:
+- |
+    echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" > .npmrc
+    npm i -g npm@^2.0.0
+
+before_script:
+- |
+    gem update --system
+    gem --version
+    npm prune
+
+script:
+  - npm test
+  - ./scripts/travis_generate_snapshot.sh
+
+before_deploy:
+  - gem install mime-types -v 2.6.2
+
+branches:
+  except:
+  - snapshots
+  - /.*-snapshots$/
+  - gh-pages
+
+deploy:
+  provider: s3
+  access_key_id: ${AWS_ACCESS_KEY}
+  secret_access_key: ${AWS_SECRET_ACCESS_KEY}
+  region: ${ARTIFACTS_S3_REGION}
+  bucket: ${ARTIFACTS_S3_BUCKET}
+  local-dir: ${SNYK_TEMP_S3_DIR}
+  upload-dir: ${ARTIFACTS_S3_UPLOAD_DIR}
+  skip_cleanup: true
+  acl: ${ARTIFACTS_S3_ACL}
+  on:
+    repo: ${TRAVIS_REPO_SLUG}
+    branch: ${TRAVIS_BRANCH}

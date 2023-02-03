@@ -1,0 +1,71 @@
+{
+	"title": "Remote Memory Exposure",
+	"credit": [
+		"ChALkeR"
+	],
+	"creationTime": "2016-01-23T12:00:05.158Z",
+	"modificationTime": "2016-01-23T12:00:05.158Z",
+	"publicationTime": "2016-01-23T12:00:05.158Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<3.8.39 >=3.5.5 || <4.3.6 >=4.0.0",
+		"unaffected": "<3.5.5"
+	},
+	"CVSSv3": "",
+	"severity": "medium",
+	"identifiers": {
+		"CWE": [
+			"CWE-201"
+		],
+		"CVE": []
+	},
+	"patches": [
+		{
+			"urls": [
+				"file://20160116_0_0_mongoose_8066b145c07984c8b7e56dbb51721c0a3d48e18a.patch"
+			],
+			"version": "<4.3.6 >=4.1.2",
+			"modificationTime": "2016-01-23T12:00:05.158Z",
+			"comments": [],
+			"id": "patch:npm:mongoose:20160116:0"
+		},
+		{
+			"urls": [
+				"file://20160116_0_1_mongoose_8066b145c07984c8b7e56dbb51721c0a3d48e18a.patch"
+			],
+			"version": "<4.1.2 >=4.0.0",
+			"modificationTime": "2016-01-23T12:00:05.158Z",
+			"comments": [],
+			"id": "patch:npm:mongoose:20160116:1"
+		},
+		{
+			"urls": [
+				"file://20160116_0_3_mongoose_2ff7d36c5e52270211b17f3a84c8a47c6f4d8c1f.patch"
+			],
+			"version": "<3.8.39 >=3.6.11",
+			"modificationTime": "2016-01-23T12:00:05.158Z",
+			"comments": [],
+			"id": "patch:npm:mongoose:20160116:2"
+		},
+		{
+			"urls": [
+				"file://20160116_0_5_mongoose_2ff7d36c5e52270211b17f3a84c8a47c6f4d8c1f.patch"
+			],
+			"version": "=3.6.11",
+			"modificationTime": "2016-01-23T12:00:05.158Z",
+			"comments": [],
+			"id": "patch:npm:mongoose:20160116:3"
+		},
+		{
+			"urls": [
+				"file://20160116_0_4_mongoose_2ff7d36c5e52270211b17f3a84c8a47c6f4d8c1f.patch"
+			],
+			"version": "<3.6.10 >=3.5.5",
+			"modificationTime": "2016-01-23T12:00:05.158Z",
+			"comments": [],
+			"id": "patch:npm:mongoose:20160116:4"
+		}
+	],
+	"moduleName": "mongoose",
+	"disclosureTime": "2016-01-23T12:00:05.158Z"
+}

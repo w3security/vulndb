@@ -1,0 +1,38 @@
+{
+	"title": "Content Injection due to quoteless attributes",
+	"credit": [
+		"Matias P. Brutti"
+	],
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<2.2.1",
+		"unaffected": ">=2.2.1"
+	},
+	"CVSSv3": "",
+	"severity": "high",
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [],
+		"NSP": 62
+	},
+	"patches": [
+		{
+			"urls": [
+				"file://mustache_0.patch"
+			],
+			"version": "<2.2.1 >=2.1.0",
+			"modificationTime": "2015-12-14T23:52:16.806Z",
+			"comments": [
+				"https://github.com/janl/mustache.js/commit/378bcca8a5cfe4058f294a3dbb78e8755e8e0da5"
+			],
+			"id": "patch:npm:mustache:20151207:0"
+		}
+	],
+	"moduleName": "mustache",
+	"creationTime": "2015-12-14T23:52:16.806Z",
+	"modificationTime": "2015-12-14T23:52:16.806Z",
+	"publicationTime": "2015-12-14T23:52:16.806Z",
+	"disclosureTime": "2015-12-07T17:13:57.565Z"
+}

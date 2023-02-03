@@ -1,0 +1,54 @@
+{
+	"title": "Content & Code Injection (XSS)",
+	"credit": [
+		"Matt Austin"
+	],
+	"creationTime": "2016-04-20T14:45:19.556Z",
+	"modificationTime": "2016-04-20T14:45:19.556Z",
+	"publicationTime": "2016-04-20T14:45:19.556Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<=0.3.5",
+    "unaffected": "<0.0.0"
+	},
+	"CVSSv3": "",
+	"severity": "high",
+	"identifiers": {
+		"CWE": [
+			"CWE-94"
+		],
+		"CVE": [],
+		"NSP": 101
+	},
+	"patches": [
+		{
+			"urls": [
+				"file://marked_20150520_0_0_2cff85979be8e7a026a9aca35542c470cf5da523.patch"
+			],
+			"version": "<=0.3.5 >0.3.3",
+			"modificationTime": "2016-05-09T22:33:12.000Z",
+			"comments": [],
+			"id": "patch:npm:marked:20150520:0"
+		},
+		{
+			"urls": [
+				"file://marked_20150520_0_1_2cff85979be8e7a026a9aca35542c470cf5da523_20140131-1.patch"
+			],
+			"version": "=0.3.3",
+			"modificationTime": "2016-05-09T22:33:12.000Z",
+			"comments": ["includes 20140131-1"],
+			"id": "patch:npm:marked:20150520:1"
+		},
+		{
+			"urls": [
+				"file://marked_20150520_0_2_2cff85979be8e7a026a9aca35542c470cf5da523_20140131-1-2.patch"
+			],
+			"version": "<=0.3.2 >0.3.0",
+			"modificationTime": "2016-05-09T22:33:12.000Z",
+			"comments": ["includes 20140131-1, 20140131-2"],
+			"id": "patch:npm:marked:20150520:2"
+		}
+	],
+	"moduleName": "marked",
+	"disclosureTime": "2015-05-20T16:45:00.000Z"
+}

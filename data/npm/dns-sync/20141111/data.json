@@ -1,0 +1,24 @@
+{
+	"title": "Arbitrary Command Injection",
+	"credit": [
+		"Steve Kemp"
+	],
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<0.1.1",
+		"unaffected": ">=0.1.1"
+	},
+	"CVSSv3": "",
+	"severity": "medium",
+	"identifiers": {
+		"CWE": [],
+		"CVE": [],
+		"NSP": 6
+	},
+	"patches": [],
+	"moduleName": "dns-sync",
+	"creationTime": "2014-11-11T17:33:48.000Z",
+	"publicationTime": "2014-11-11T17:33:48.000Z",
+	"modificationTime": "2015-11-06T02:09:36.180Z",
+	"disclosureTime": "2014-11-11T17:33:48.000Z"
+}

@@ -1,0 +1,26 @@
+{
+	"title": "SQL Injection",
+	"credit": [
+		""
+	],
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<=1.7.0-alpha2 >=0.2.2",
+		"unaffected": ">1.7.0-alpha3 || <0.2.2"
+	},
+	"CVSSv2": "",
+	"CVSSv3": "",
+	"severity": "medium",
+	"identifiers": {
+		"CWE": [
+			"CWE-89"
+		],
+		"CVE": []
+	},
+	"patches": [],
+	"moduleName": "sequelize",
+	"creationTime": "2016-04-01T02:09:36.180Z",
+	"publicationTime": "2016-04-01T02:09:36.180Z",
+	"modificationTime": "2016-04-01T02:09:36.180Z",
+	"disclosureTime": "2013-05-24T00:00:00.000Z"
+}

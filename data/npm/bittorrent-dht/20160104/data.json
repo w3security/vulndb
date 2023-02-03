@@ -1,0 +1,27 @@
+{
+	"title": "Remote Memory Exposure",
+	"credit": [
+		"Feross Aboukhadijeh",
+		"Mathias Buss Madsen"
+	],
+	"creationTime": "2016-01-05T12:38:01.746Z",
+	"modificationTime": "2016-01-05T12:38:01.746Z",
+	"publicationTime": "2016-01-05T12:38:01.746Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<5.1.3",
+		"unaffected": ">=5.1.3"
+	},
+	"CVSSv3": "",
+	"severity": "medium",
+	"identifiers": {
+		"CWE": [
+			"CWE-201"
+		],
+		"CVE": [],
+		"NSP": 68
+	},
+	"patches": [],
+	"moduleName": "bittorrent-dht",
+	"disclosureTime": "2016-01-04T19:52:32.207Z"
+}

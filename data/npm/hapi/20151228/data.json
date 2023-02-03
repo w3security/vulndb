@@ -1,0 +1,24 @@
+{
+	"title": "Potentially loose security restrictions",
+	"credit": [
+		"Eran Hammer"
+	],
+	"creationTime": "2016-01-05T12:38:01.750Z",
+	"modificationTime": "2016-01-05T12:38:01.750Z",
+	"publicationTime": "2016-01-05T12:38:01.750Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<11.1.4",
+		"unaffected": ">=11.1.4"
+	},
+	"CVSSv3": "",
+	"severity": "low",
+	"identifiers": {
+		"CWE": [],
+		"CVE": [],
+		"NSP": 65
+	},
+	"patches": [],
+	"moduleName": "hapi",
+	"disclosureTime": "2015-12-28T17:17:36.462Z"
+}

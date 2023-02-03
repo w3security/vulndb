@@ -1,0 +1,56 @@
+{
+	"title": "Remote Shell Command Injection",
+	"credit": [
+		"Brendan Scarvell of Console"
+	],
+	"creationTime": "2015-11-06T02:09:36.184Z",
+	"modificationTime": "2015-11-06T02:09:36.184Z",
+	"publicationTime": "2015-11-06T02:09:36.184Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<=1.20.0",
+		"unaffected": ">=1.21.1"
+	},
+	"CVSSv3": "",
+	"severity": "high",
+	"identifiers": {
+		"CWE": [
+			"CWE-78"
+		],
+		"CVE": [
+			"CVE-2015-7982"
+		],
+		"NSP": 54
+	},
+	"patches": [
+		{
+			"urls": [
+				"file://gm_20151026_0_0_5f5c77490aa84ed313405c88905eb4566135be31_snyk.patch"
+			],
+			"version": "<=1.20.0 >=1.17.0",
+			"modificationTime": "2015-10-26T20:12:18.990Z",
+			"comments": [],
+			"id": "patch:npm:gm:20151026:0"
+		},
+		{
+			"urls": [
+				"file://gm_20151026_1_0_5f5c77490aa84ed313405c88905eb4566135be31_snyk_c1.patch"
+			],
+			"version": "<1.17.0 >=1.16.0",
+			"modificationTime": "2015-10-26T20:12:18.990Z",
+			"comments": [],
+			"id": "patch:npm:gm:20151026:1"
+		},
+		{
+			"urls": [
+				"file://gm_20151026_2_0_5f5c77490aa84ed313405c88905eb4566135be31_snyk_c2.patch"
+			],
+			"version": "<1.16.0 >=1.15.0",
+			"modificationTime": "2015-10-26T20:12:18.990Z",
+			"comments": [],
+			"id": "patch:npm:gm:20151026:2"
+		}
+	],
+	"moduleName": "gm",
+	"disclosureTime": "2015-10-26T20:12:18.990Z"
+}

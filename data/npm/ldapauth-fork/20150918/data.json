@@ -1,0 +1,38 @@
+{
+	"title": "LDAP Injection",
+	"credit": [
+		"Jerome Touffe-Blin"
+	],
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "< 2.3.3",
+		"unaffected": ">= 2.3.3"
+	},
+	"CVSSv3": "",
+	"severity": "medium",
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2015-7294"
+		],
+		"NSP": 18
+	},
+	"patches": [
+		{
+			"urls": [
+				"file://ldapauth-fork_20150918_0_0_3feea43e243698bcaeffa904a7324f4d96df60e4.patch"
+			],
+			"version": "<2.3.3 >=2.3.0",
+			"modificationTime": "2015-09-18T09:29:10.000Z",
+			"comments": [
+				"https://github.com/vesse/node-ldapauth-fork/commit/3feea43e243698bcaeffa904a7324f4d96df60e4.patch"
+			],
+			"id": "patch:npm:ldapauth-fork:20150918:0"
+		}
+	],
+	"moduleName": "ldapauth-fork",
+	"creationTime": "2015-09-18T09:29:10.000Z",
+	"publicationTime": "2015-09-18T09:29:10.000Z",
+	"modificationTime": "2015-11-06T02:09:36.180Z",
+	"disclosureTime": "2015-09-18T09:29:10.000Z"
+}

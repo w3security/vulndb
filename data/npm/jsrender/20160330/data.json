@@ -1,0 +1,28 @@
+{
+	"title": "Template Injection",
+	"credit": [
+		"Paweł Hałdrzyński"
+	],
+	"creationTime": "2016-03-31T09:02:43.772Z",
+	"modificationTime": "2016-03-31T09:02:43.772Z",
+	"publicationTime": "2016-03-31T09:02:43.772Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<=0.9.73",
+		"unaffected": ">=0.9.74"
+	},
+	"CVSSv3": "",
+	"severity": "high",
+	"identifiers": {
+		"CWE": [
+			"CWE-94"
+		],
+		"CVE": [
+			"CVE-2016-3942"
+		],
+		"NSP": 97
+	},
+	"patches": [],
+	"moduleName": "jsrender",
+	"disclosureTime": "2016-03-30T22:25:57.000Z"
+}

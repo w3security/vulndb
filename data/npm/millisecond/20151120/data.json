@@ -1,0 +1,38 @@
+{
+	"title": "Regular Expression Denial of Service",
+	"credit": [
+		"Luigi Pinca"
+	],
+	"creationTime": "2015-11-25T12:00:05.158Z",
+	"modificationTime": "2015-11-25T12:00:05.158Z",
+	"publicationTime": "2015-11-25T12:00:05.158Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<0.1.2",
+		"unaffected": ">=0.1.2"
+	},
+	"CVSSv3": "",
+	"severity": "low",
+	"identifiers": {
+		"CWE": [
+			"CWE-400"
+		],
+		"CVE": [
+			"CVE-2015-8315"
+		],
+		"NSP": 59
+	},
+	"patches": [
+		{
+			"urls": [
+				"file://millisecond_20151120_0_0_d3e03f8cd2089806b522e867505e14444fbac838.patch"
+			],
+			"version": "=0.1.1",
+			"modificationTime": "2015-11-24T20:39:59.852Z",
+			"comments": [],
+			"id": "patch:npm:millisecond:20151120:0"
+		}
+	],
+	"moduleName": "millisecond",
+	"disclosureTime": "2015-11-20T18:52:47.394Z"
+}

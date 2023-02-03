@@ -1,0 +1,38 @@
+{
+	"title": "Rosetta-flash jsonp vulnerability",
+	"credit": [
+		"Michele Spagnuolo"
+	],
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "< 6.1.0",
+		"unaffected": ">= 6.1.0"
+	},
+	"CVSSv3": "",
+	"severity": "medium",
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2014-4671"
+		],
+		"NSP": 12
+	},
+	"patches": [
+		{
+			"urls": [
+				"file://hapi_20140708-1_0_0_94c6f0f223c3c2c915ba80adec58b153f435b2d1.patch"
+			],
+			"version": "< 6.1.0 >=2.3.0",
+			"modificationTime": "2014-07-08T06:33:48.000Z",
+			"comments": [
+				"https://github.com/patrickkettner/hapi/commit/94c6f0f223c3c2c915ba80adec58b153f435b2d1.patch"
+			],
+			"id": "patch:npm:hapi:20140708-1:0"
+		}
+	],
+	"moduleName": "hapi",
+	"creationTime": "2014-07-08T06:33:48.000Z",
+	"publicationTime": "2014-07-08T06:33:48.000Z",
+	"modificationTime": "2015-11-06T02:09:36.180Z",
+	"disclosureTime": "2014-07-08T06:33:48.000Z"
+}

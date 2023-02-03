@@ -1,0 +1,26 @@
+{
+	"title": "Denial of Service",
+	"credit": [
+		"James Halliday"
+	],
+	"creationTime": "2015-12-24T09:29:48.262Z",
+	"modificationTime": "2015-12-24T09:29:48.262Z",
+	"publicationTime": "2015-12-24T09:29:48.262Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<1.4.0",
+		"unaffected": ">=1.4.0"
+	},
+	"CVSSv3": "",
+	"severity": "medium",
+	"identifiers": {
+		"CWE": [
+			"CWE-248"
+		],
+		"CVE": [],
+		"NSP": 64
+	},
+	"patches": [],
+	"moduleName": "ecstatic",
+	"disclosureTime": "2015-12-23T23:21:25.322Z"
+}

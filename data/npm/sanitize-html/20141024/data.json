@@ -1,0 +1,22 @@
+{
+	"title": "Partial Sanitization",
+	"credit": [],
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "< 1.4.3",
+		"unaffected": ">= 1.4.3"
+	},
+	"CVSSv3": "",
+	"severity": "medium",
+	"identifiers": {
+		"CWE": [],
+		"CVE": [],
+		"NSP": ""
+	},
+	"patches": [],
+	"moduleName": "sanitize-html",
+	"creationTime": "2015-11-06T02:09:36.180Z",
+	"publicationTime": "2015-11-06T02:09:36.180Z",
+	"modificationTime": "2015-11-06T02:09:36.180Z",
+	"disclosureTime": "2015-11-06T02:09:36.180Z"
+}

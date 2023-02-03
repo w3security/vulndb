@@ -1,0 +1,36 @@
+{
+	"title": "SSL Validation disabled by default",
+	"credit": [
+		"Mark Lee"
+	],
+	"creationTime": "2016-04-22T16:00:02.673Z",
+	"modificationTime": "2016-04-22T16:00:02.673Z",
+	"publicationTime": "2016-05-17T00:00:00.000Z",
+	"disclosureTime": "2016-04-22T15:56:50.000Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": ">= 5.2.1 <= 6.0.2",
+		"unaffected": ">= 7.0.0"
+	},
+	"CVSSv3": "",
+	"severity": "medium",
+	"identifiers": {
+		"CWE": [
+			"CWE-295"
+		],
+		"CVE": [],
+		"NSP": 104
+	},
+	"patches": [
+		{
+			"urls": [
+				"file://electron-packager_20160422_ebea1d8c177f2a2816687c4a445998cc35375a18.patch"
+			],
+			"version": ">= 5.2.1 <= 6.0.2",
+			"modificationTime": "2016-04-26T10:00:00.000Z",
+			"comments": [],
+			"id": "patch:npm:electron-packager:20160422:0"
+		}
+	],
+	"moduleName": "electron-packager"
+}

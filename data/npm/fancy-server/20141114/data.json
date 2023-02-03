@@ -1,0 +1,26 @@
+{
+	"title": "Directory Traversal",
+	"credit": [
+		"Adam Baldwin"
+	],
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<0.1.4",
+		"unaffected": ">=0.1.4"
+	},
+	"CVSSv3": "",
+	"severity": "high",
+	"identifiers": {
+		"CWE": [
+			"CWE-23"
+		],
+		"CVE": [],
+		"NSP": 9
+	},
+	"patches": [],
+	"moduleName": "fancy-server",
+	"creationTime": "2014-11-14T18:00:48.000Z",
+	"publicationTime": "2014-11-14T18:00:48.000Z",
+	"modificationTime": "2015-11-06T02:09:36.180Z",
+	"disclosureTime": "2014-11-14T18:00:48.000Z"
+}

@@ -1,0 +1,45 @@
+{
+	"title": "Regular Expression Denial of Service",
+	"credit": [
+		"Adam Baldwin"
+	],
+	"creationTime": "2016-01-19T23:24:51.834Z",
+	"modificationTime": "2016-01-19T23:24:51.834Z",
+	"publicationTime": "2016-01-19T23:24:51.834Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<=3.1.2 || >= 4.0.0 <4.1.1",
+		"unaffected": ">3.1.2 < 4.0.0 || >=4.1.1"
+	},
+	"CVSSv3": "",
+	"severity": "low",
+	"identifiers": {
+		"CWE": [
+			"CWE-400"
+		],
+		"CVE": [],
+		"NSP": 77
+	},
+	"patches": [
+		{
+			"urls": [
+				"file://hawk_20160119_0_0_0833f99ba64558525995a7e21d4093da1f3e15fa.patch"
+			],
+			"version": "<4.1.1 >=4.0.0",
+			"modificationTime": "2016-01-20T12:51:35.396Z",
+			"comments": [],
+			"id": "patch:npm:hawk:20160119:0"
+		},
+		{
+			"urls": [
+				"file://hawk_20160119_0_1_0833f99ba64558525995a7e21d4093da1f3e15fa.patch"
+			],
+			"version": "<4.0.0 >=3.0.0",
+			"modificationTime": "2016-01-20T12:51:35.396Z",
+			"comments": [],
+			"id": "patch:npm:hawk:20160119:1"
+		}
+	],
+	"moduleName": "hawk",
+	"disclosureTime": "2016-01-19T21:51:35.396Z"
+}

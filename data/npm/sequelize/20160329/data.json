@@ -1,0 +1,58 @@
+{
+	"title": "SQL Injection in IN statement",
+	"credit": [
+		""
+	],
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<=3.19.3",
+		"unaffected": ">3.19.3"
+	},
+	"CVSSv2": "",
+	"CVSSv3": "",
+	"severity": "high",
+	"identifiers": {
+		"CWE": [
+			"CWE-89"
+		],
+		"CVE": []
+	},
+	"patches": [
+		{
+			"urls": [
+				"file://sequelize_20160329_0_0_23952a2b020cc3571f090e67dae7feb084e1be71.patch"
+			],
+			"version": "<=3.19.3 >=3.17.2",
+			"modificationTime": "2016-04-12T10:00:00.000Z",
+			"comments": [],
+			"id": "patch:npm:sequelize:20160329:0"
+		},
+		{
+			"urls": [
+				"file://sequelize_20160329_0_0_23952a2b020cc3571f090e67dae7feb084e1be71_w_20160115.patch"
+			],
+			"version": "<3.17.2 >3.16.0",
+			"modificationTime": "2016-04-13T10:00:00.000Z",
+			"comments": [
+				"also carries a fix for npm:sequelize:20160115"
+			],
+			"id": "patch:npm:sequelize:20160329:1"
+		},
+		{
+			"urls": [
+				"file://sequelize_20160329_0_0_23952a2b020cc3571f090e67dae7feb084e1be71_w_20160115_w_20160106.patch"
+			],
+			"version": "=3.16.0",
+			"modificationTime": "2016-04-13T10:00:00.000Z",
+			"comments": [
+				"also carries a fix for npm:sequelize:20160115"
+			],
+			"id": "patch:npm:sequelize:20160329:3"
+		}
+	],
+	"moduleName": "sequelize",
+	"creationTime": "2016-04-01T00:00:00.000Z",
+	"publicationTime": "2016-04-01T00:00:00.000Z",
+	"modificationTime": "2016-04-01T00:00:00.000Z",
+	"disclosureTime": "2016-03-29T00:00:00.000Z"
+}

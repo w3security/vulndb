@@ -1,0 +1,26 @@
+{
+	"title": "Insecure Default Configuration",
+	"credit": [
+		"Phil Schleihauf"
+	],
+	"creationTime": "2016-03-29T00:00:02.780Z",
+	"modificationTime": "2016-03-29T00:00:02.780Z",
+	"publicationTime": "2016-03-29T00:00:02.780Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<=0.3.8",
+		"unaffected": ">=0.4.0"
+	},
+	"CVSSv3": "",
+	"severity": "medium",
+	"identifiers": {
+		"CWE": [
+			"CWE-200"
+		],
+		"CVE": [],
+		"NSP": 96
+	},
+	"patches": [],
+	"moduleName": "airbrake",
+	"disclosureTime": "2016-03-28T22:48:46.000Z"
+}

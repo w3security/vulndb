@@ -1,0 +1,33 @@
+{
+	"title": "Potential Cross-Site Scripting",
+	"credit": [
+		"Robert Jackson"
+	],
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": ">=1.4.0 <1.4.0-beta2 || >=1.3.0 <1.3.1 || >=1.2.0 <1.2.1 || >=1.1.0 <1.1.3 || >=1.0.0 <1.0.1",
+		"unaffected": "<1.4.0 >=1.4.0-beta2 || <1.3.0 >=1.3.1 || <1.2.0 >=1.2.1 || <1.1.0 >=1.1.3 || <1.0.0 >=1.0.1"
+	},
+	"CVSSv3": "",
+	"severity": "medium",
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2014-0013",
+			"CVE-2014-0014"
+		],
+		"ALTERNATIVE": [
+			"npm:ember:20140114-1",
+			"npm:ember:20140114-2",
+			"npm:ember:20140114-3",
+			"npm:ember:20140114-4"
+		],
+		"NSP": ""
+	},
+	"patches": [],
+	"moduleName": "ember",
+	"creationTime": "2015-11-06T02:09:36.180Z",
+	"publicationTime": "2015-11-06T02:09:36.180Z",
+	"modificationTime": "2015-11-06T02:09:36.180Z",
+	"disclosureTime": "2015-11-06T02:09:36.180Z"
+}

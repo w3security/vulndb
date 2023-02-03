@@ -1,0 +1,26 @@
+{
+	"title": "Credentials saved as clear-text in log",
+	"credit": [
+		"Stephan Bönnemann"
+	],
+	"creationTime": "2016-03-17T13:35:57.747Z",
+	"modificationTime": "2016-03-17T13:35:57.747Z",
+	"publicationTime": "2016-03-17T13:35:57.747Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<=0.9.1",
+		"unaffected": ">=1.0.0"
+	},
+	"CVSSv3": "",
+	"severity": "low",
+	"identifiers": {
+		"CWE": [
+			"CWE-319"
+		],
+		"CVE": [],
+		"NSP": 85
+	},
+	"patches": [],
+	"moduleName": "grunt-gh-pages",
+	"disclosureTime": "2016-03-16T16:29:31.778Z"
+}

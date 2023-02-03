@@ -1,0 +1,40 @@
+{
+	"title": "Denial of Service",
+	"credit": [
+		"Reid Burke"
+	],
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<2.2.0",
+		"unaffected": ">=2.2.0"
+	},
+	"CVSSv3": "",
+	"severity": "medium",
+	"identifiers": {
+		"CWE": [
+			"CWE-400"
+		],
+		"CVE": [
+			"CVE-2014-4179"
+		],
+		"NSP": 44
+	},
+	"patches": [
+		{
+			"urls": [
+				"file://yar_20140616_0_0_66b981a47655bef2fed84f90b86fc5b43edaea8e.patch"
+			],
+			"version": "<2.2.0 >=0.3.0",
+			"modificationTime": "2014-06-16T09:29:10.000Z",
+			"comments": [
+				"https://github.com/hapijs/yar/commit/66b981a47655bef2fed84f90b86fc5b43edaea8e.patch"
+			],
+			"id": "patch:npm:yar:20140616:0"
+		}
+	],
+	"moduleName": "yar",
+	"creationTime": "2014-06-16T09:29:10.000Z",
+	"publicationTime": "2014-06-16T09:29:10.000Z",
+	"modificationTime": "2015-11-06T02:09:36.180Z",
+	"disclosureTime": "2014-06-16T09:29:10.000Z"
+}

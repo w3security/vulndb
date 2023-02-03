@@ -1,0 +1,26 @@
+{
+	"title": "SQL Injection due to unescaped object keys",
+	"credit": [
+		"Sébastian Dejonghe"
+	],
+	"creationTime": "2016-01-05T12:38:01.749Z",
+	"modificationTime": "2016-01-05T12:38:01.749Z",
+	"publicationTime": "2016-01-05T12:38:01.749Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<=v2.0.0-alpha7",
+		"unaffected": ">=v2.0.0-alpha8"
+	},
+	"CVSSv3": "",
+	"severity": "medium",
+	"identifiers": {
+		"CWE": [
+			"CWE-89"
+		],
+		"CVE": [],
+		"NSP": 66
+	},
+	"patches": [],
+	"moduleName": "mysql",
+	"disclosureTime": "2015-12-28T18:37:37.178Z"
+}

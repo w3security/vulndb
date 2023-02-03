@@ -1,0 +1,26 @@
+{
+	"title": "Cross-Site Scripting",
+	"credit": [],
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<1.1",
+		"unaffected": ">=1.1"
+	},
+	"CVSSv3": "",
+	"severity": "medium",
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [
+			"CVE-2008-6681"
+		],
+		"NSP": ""
+	},
+	"patches": [],
+	"moduleName": "dojo",
+	"creationTime": "2015-11-06T02:09:36.180Z",
+	"publicationTime": "2015-11-06T02:09:36.180Z",
+	"modificationTime": "2015-11-06T02:09:36.180Z",
+	"disclosureTime": "2015-11-06T02:09:36.180Z"
+}

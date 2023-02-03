@@ -1,0 +1,107 @@
+{
+	"title": "Remote Memory Exposure",
+	"credit": [
+		"Feross Aboukhadijeh"
+	],
+	"creationTime": "2016-03-22T12:00:05.158Z",
+	"modificationTime": "2016-03-22T12:00:05.158Z",
+	"publicationTime": "2016-03-22T12:00:05.158Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<2.68.0 >2.2.5",
+		"unaffected": ">=2.68.0 <=2.2.6"
+	},
+	"CVSSv3": "",
+	"severity": "medium",
+	"identifiers": {
+		"CWE": [
+			"CWE-201"
+		],
+		"CVE": []
+	},
+	"patches": [
+		{
+			"urls": [
+				"file://request_20160119_0_0_3d31d4526fa4d4e4f59b89cabe194fb671063cdb.patch"
+			],
+			"version": "<2.68.0 >=2.54.0",
+			"modificationTime": "2016-03-22T12:00:05.158Z",
+			"comments": [],
+			"id": "patch:npm:request:20160119:0"
+		},
+		{
+			"urls": [
+				"file://request_20160119_0_1_3d31d4526fa4d4e4f59b89cabe194fb671063cdb.patch"
+			],
+			"version": "<2.54.0 >2.51.0",
+			"modificationTime": "2016-03-22T12:00:05.158Z",
+			"comments": [],
+			"id": "patch:npm:request:20160119:1"
+		},
+		{
+			"urls": [
+				"file://request_20160119_0_2_3d31d4526fa4d4e4f59b89cabe194fb671063cdb.patch"
+			],
+			"version": "<=2.51.0 >2.47.0",
+			"modificationTime": "2016-03-22T12:00:05.158Z",
+			"comments": [],
+			"id": "patch:npm:request:20160119:2"
+		},
+		{
+			"urls": [
+				"file://request_20160119_0_3_3d31d4526fa4d4e4f59b89cabe194fb671063cdb.patch"
+			],
+			"version": "=2.47.0",
+			"modificationTime": "2016-03-27T12:00:05.158Z",
+			"comments": [],
+			"id": "patch:npm:request:20160119:3"
+		},
+		{
+			"urls": [
+				"file://request_20160119_0_4_3d31d4526fa4d4e4f59b89cabe194fb671063cdb.patch"
+			],
+			"version": "<2.47.0 >=2.27.0",
+			"modificationTime": "2016-03-27T12:00:05.158Z",
+			"comments": [],
+			"id": "patch:npm:request:20160119:4"
+		},
+		{
+			"urls": [
+				"file://request_20160119_0_5_3d31d4526fa4d4e4f59b89cabe194fb671063cdb.patch"
+			],
+			"version": "<2.27.0 >=2.16.0",
+			"modificationTime": "2016-03-27T12:00:05.158Z",
+			"comments": [],
+			"id": "patch:npm:request:20160119:5"
+		},
+		{
+			"urls": [
+				"file://request_20160119_0_6_3d31d4526fa4d4e4f59b89cabe194fb671063cdb.patch"
+			],
+			"version": "<2.16.0 >=2.9.150",
+			"modificationTime": "2016-03-27T12:00:05.158Z",
+			"comments": [],
+			"id": "patch:npm:request:20160119:6"
+		},
+		{
+			"urls": [
+				"file://request_20160119_0_7_3d31d4526fa4d4e4f59b89cabe194fb671063cdb.patch"
+			],
+			"version": "<2.9.150 >=2.9.3",
+			"modificationTime": "2016-03-27T12:00:05.158Z",
+			"comments": [],
+			"id": "patch:npm:request:20160119:7"
+		},
+		{
+			"urls": [
+				"file://request_20160119_0_8_3d31d4526fa4d4e4f59b89cabe194fb671063cdb.patch"
+			],
+			"version": "<2.9.3 >=2.2.6",
+			"modificationTime": "2016-03-27T12:00:05.158Z",
+			"comments": [],
+			"id": "patch:npm:request:20160119:8"
+		}
+	],
+	"moduleName": "request",
+	"disclosureTime": "2016-01-19T04:57:05.158Z"
+}

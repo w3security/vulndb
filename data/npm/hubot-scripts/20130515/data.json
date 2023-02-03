@@ -1,0 +1,26 @@
+{
+	"title": "Command Injection in email.coffee",
+	"credit": [
+		"Neal Poole"
+	],
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<= 2.4.3",
+		"unaffected": "> 2.4.3"
+	},
+	"CVSSv3": "",
+	"severity": "medium",
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2013-7378"
+		],
+		"NSP": 13
+	},
+	"patches": [],
+	"moduleName": "hubot-scripts",
+	"creationTime": "2013-05-15T19:14:38.000Z",
+	"publicationTime": "2013-05-15T19:14:38.000Z",
+	"modificationTime": "2015-11-06T02:09:36.180Z",
+	"disclosureTime": "2013-05-15T19:14:38.000Z"
+}

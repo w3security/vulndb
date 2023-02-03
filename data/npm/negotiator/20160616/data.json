@@ -1,0 +1,26 @@
+{
+	"title": "Regular Expression Denial of Service",
+	"credit": [
+		"Adam Baldwin"
+	],
+	"creationTime": "2016-06-16T18:00:02.240Z",
+	"modificationTime": "2016-06-16T18:00:02.240Z",
+	"publicationTime": "2016-06-16T17:36:06.000Z",
+	"disclosureTime": "2016-06-16T17:36:06.000Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<= 0.6.0",
+		"unaffected": ">= 0.6.1"
+	},
+	"CVSSv3": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+	"severity": "high",
+	"identifiers": {
+		"CWE": [
+			"CWE-400"
+		],
+		"CVE": [],
+		"NSP": 106
+	},
+	"patches": [],
+	"moduleName": "negotiator"
+}

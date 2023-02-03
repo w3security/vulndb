@@ -1,0 +1,27 @@
+{
+	"title": "LDAP Injection",
+	"credit": [
+		"David Black",
+		"Jerome Touffe-Blin"
+	],
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<=2.2.4",
+		"unaffected": ">2.2.5"
+	},
+	"CVSSv3": "",
+	"severity": "medium",
+	"identifiers": {
+		"CWE": [
+			"CWE-90"
+		],
+		"CVE": [],
+		"NSP": 19
+	},
+	"patches": [],
+	"moduleName": "ldapauth",
+	"creationTime": "2015-09-18T09:30:10.000Z",
+	"publicationTime": "2015-09-18T09:30:10.000Z",
+	"modificationTime": "2015-11-06T02:09:36.180Z",
+	"disclosureTime": "2015-09-18T09:30:10.000Z"
+}

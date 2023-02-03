@@ -1,0 +1,39 @@
+{
+	"title": "SQL Injection in Order",
+	"credit": [
+		"Levan Basharuli"
+	],
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<=2.0.0-rc7",
+		"unaffected": ">=2.0.0-rc8"
+	},
+	"CVSSv2": "7.5 (HIGH) (AV:N/AC:L/Au:N/C:P/I:P/A:P)",
+	"CVSSv3": "",
+	"severity": "high",
+	"identifiers": {
+		"CWE": [
+			"CWE-89"
+		],
+		"CVE": [
+			"CVE-2015-1369"
+		],
+		"NSP": 33
+	},
+	"patches": [
+		{
+			"urls": [
+				"file://sequelize_20150118_0_0_f6ff86f7af6e2d15906ad1511b234d19adcccb07_snyk.patch"
+			],
+			"version": "=2.0.0-rc7",
+			"modificationTime": "2015-01-18T20:00:00.000Z",
+			"comments": [],
+			"id": "patch:npm:sequelize:20150118:0"
+		}
+	],
+	"moduleName": "sequelize",
+	"creationTime": "2015-01-18T20:00:00.000Z",
+	"publicationTime": "2015-01-18T20:00:00.000Z",
+	"modificationTime": "2015-11-06T02:09:36.180Z",
+	"disclosureTime": "2015-01-18T20:00:00.000Z"
+}

@@ -1,0 +1,26 @@
+{
+	"title": "Cross-Site Request Forgery",
+	"credit": [
+		"Craig Arendt"
+	],
+	"creationTime": "2016-03-29T00:00:02.781Z",
+	"modificationTime": "2016-03-29T00:00:02.781Z",
+	"publicationTime": "2016-03-29T00:00:02.781Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<3.5.0",
+		"unaffected": ">=3.5.0"
+	},
+	"CVSSv3": "",
+	"severity": "medium",
+	"identifiers": {
+		"CWE": [
+			"CWE-352"
+		],
+		"CVE": [],
+		"NSP": 91
+	},
+	"patches": [],
+	"moduleName": "droppy",
+	"disclosureTime": "2016-03-28T22:40:54.000Z"
+}

@@ -1,0 +1,72 @@
+{
+	"title": "Remote Memory Exposure",
+	"credit": [
+		"Feross Aboukhadijeh",
+		"Mathias Buss Madsen"
+	],
+	"creationTime": "2016-01-05T12:38:01.749Z",
+	"modificationTime": "2016-01-05T12:38:01.749Z",
+	"publicationTime": "2016-01-05T12:38:01.749Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "< 1.0.1",
+		"unaffected": ">= 1.0.1"
+	},
+	"CVSSv3": "",
+	"severity": "high",
+	"identifiers": {
+		"CWE": [
+			"CWE-201"
+		],
+		"CVE": [],
+		"NSP": 67
+	},
+	"patches": [
+		{
+			"urls": [
+				"file://ws_20160104_0_0_29293ed11b679e0366fa0f6bb9310b330dafd795.patch"
+			],
+			"version": "< 1.0.1 >= 0.4.27",
+			"modificationTime": "2016-01-07T01:00:00.000Z",
+			"comments": [
+				"https://github.com/websockets/ws/commit/29293ed11b679e0366fa0f6bb9310b330dafd795.patch"
+			],
+			"id": "patch:npm:ws:20160104:0"
+		},
+		{
+			"urls": [
+				"file://ws_20160104_0_1_29293ed11b679e0366fa0f6bb9310b330dafd795.patch"
+			],
+			"version": "< 0.4.27 >= 0.4.8",
+			"modificationTime": "2016-01-07T01:00:00.000Z",
+			"comments": [
+				"https://github.com/websockets/ws/commit/29293ed11b679e0366fa0f6bb9310b330dafd795.patch"
+			],
+			"id": "patch:npm:ws:20160104:1"
+		},
+		{
+			"urls": [
+				"file://ws_20160104_0_2_29293ed11b679e0366fa0f6bb9310b330dafd795.patch"
+			],
+			"version": "< 0.4.8 >= 0.3.9",
+			"modificationTime": "2016-01-07T01:00:00.000Z",
+			"comments": [
+				"https://github.com/websockets/ws/commit/29293ed11b679e0366fa0f6bb9310b330dafd795.patch"
+			],
+			"id": "patch:npm:ws:20160104:2"
+		},
+		{
+			"urls": [
+				"file://ws_20160104_0_3_29293ed11b679e0366fa0f6bb9310b330dafd795.patch"
+			],
+			"version": "=0.3.8",
+			"modificationTime": "2016-01-07T01:00:00.000Z",
+			"comments": [
+				"https://github.com/websockets/ws/commit/29293ed11b679e0366fa0f6bb9310b330dafd795.patch"
+			],
+			"id": "patch:npm:ws:20160104:3"
+		}
+	],
+	"moduleName": "ws",
+	"disclosureTime": "2016-01-04T19:34:19.734Z"
+}

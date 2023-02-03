@@ -1,0 +1,38 @@
+{
+	"title": "Open Redirect",
+	"credit": [
+		"Pierre-Élie Fauché"
+	],
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<1.6.5 || >=1.7.0 <1.7.2",
+		"unaffected": "~1.6.5 || >=1.7.2"
+	},
+	"CVSSv3": "",
+	"severity": "low",
+	"identifiers": {
+		"CWE": [
+			"CWE-601"
+		],
+		"CVE": [
+			"CVE-2015-1164"
+		],
+		"NSP": 35
+	},
+	"patches": [
+		{
+			"urls": [
+				"file://serve-static_20150113_0_0_0399e399935bab99530d6926094b4451438c2d50_snyk.patch"
+			],
+			"version": ">=1.7.0 <1.7.2",
+			"modificationTime": "2015-01-13T12:50:48.000Z",
+			"comments": [],
+			"id": "patch:npm:serve-static:20150113:0"
+		}
+	],
+	"moduleName": "serve-static",
+	"creationTime": "2015-01-13T12:50:48.000Z",
+	"publicationTime": "2015-01-13T12:50:48.000Z",
+	"modificationTime": "2015-11-06T02:09:36.180Z",
+	"disclosureTime": "2015-01-13T12:50:48.000Z"
+}

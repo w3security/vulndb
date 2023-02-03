@@ -1,0 +1,34 @@
+{
+	"title": "Denial of Service and Content Injection",
+	"credit": [
+		"Garth Boyd"
+	],
+	"creationTime": "2016-01-25T19:00:11.028Z",
+	"modificationTime": "2016-01-25T19:00:11.028Z",
+	"publicationTime": "2016-01-25T19:00:11.028Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<1.4.0",
+		"unaffected": ">=1.4.0"
+	},
+	"CVSSv3": "",
+	"severity": "medium",
+	"identifiers": {
+		"CWE": [],
+		"CVE": [],
+		"NSP": 80
+	},
+	"patches": [
+		{
+			"urls": [
+				"file://i1n-20160125_0_0_877720d2d9bb90dc8233706e81ffa03f99fc9dc8.patch"
+			],
+			"version": "<1.4.0 >1.2.1 || <1.2.1 >0.3.3",
+			"modificationTime": "2016-01-20T12:51:35.396Z",
+			"comments": [],
+			"id": "patch:npm:i18n-node-angular:20160125:0"
+		}
+	],
+	"moduleName": "i18n-node-angular",
+	"disclosureTime": "2016-01-25T17:56:55.455Z"
+}

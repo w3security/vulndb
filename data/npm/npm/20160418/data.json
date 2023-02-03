@@ -1,0 +1,29 @@
+{
+	"title": "npm Token Leak",
+	"credit": [
+		"Mitar",
+		"Will White & the team at Mapbox",
+		"Max Motovilov",
+		"James Taylor"
+	],
+	"creationTime": "2016-04-20T14:45:19.556Z",
+	"modificationTime": "2016-04-20T14:45:19.556Z",
+	"publicationTime": "2016-04-20T14:45:19.556Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<= 2.15.0 || >= 3.0.0 <= 3.8.2",
+		"unaffected": ">= 2.15.1 <= 3.0.0 || >= 3.8.3"
+	},
+	"CVSSv3": "",
+	"severity": "high",
+	"identifiers": {
+		"CWE": [
+			"CWE-200"
+		],
+		"CVE": [],
+		"NSP": 98
+	},
+	"patches": [],
+	"moduleName": "npm",
+	"disclosureTime": "2016-04-18T21:16:44.000Z"
+}

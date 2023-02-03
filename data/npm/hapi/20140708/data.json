@@ -1,0 +1,26 @@
+{
+	"title": "Denial of Service due to file descriptor leak",
+	"credit": [
+		"Jo Liss"
+	],
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "2.0.x || 2.1.x",
+		"unaffected": ">= 2.2.x"
+	},
+	"CVSSv3": "",
+	"severity": "low",
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2014-3742"
+		],
+		"NSP": 11
+	},
+	"patches": [],
+	"moduleName": "hapi",
+	"creationTime": "2014-07-08T06:33:48.000Z",
+	"publicationTime": "2014-07-08T06:33:48.000Z",
+	"modificationTime": "2015-11-06T02:09:36.180Z",
+	"disclosureTime": "2014-07-08T06:33:48.000Z"
+}

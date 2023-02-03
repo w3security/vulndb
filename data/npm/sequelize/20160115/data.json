@@ -1,0 +1,45 @@
+{
+	"title": "Remote Memory Exposure",
+	"credit": [
+		""
+	],
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<3.17.2",
+		"unaffected": ">3.17.2"
+	},
+	"CVSSv2": "",
+	"CVSSv3": "",
+	"severity": "medium",
+	"identifiers": {
+		"CWE": [
+			"CWE-201"
+		],
+		"CVE": []
+	},
+	"patches": [
+		{
+			"urls": [
+				"file://sequelize_20160115_0_0_b85f78a318e6f7112a3374498171a3e148cdc4da.patch"
+			],
+			"version": "<3.17.2 >3.16.0",
+			"modificationTime": "2016-04-13T10:00:00.000Z",
+			"comments": [],
+			"id": "patch:npm:sequelize:20160115:0"
+		},
+		{
+			"urls": [
+				"file://sequelize_20160115_0_0_b85f78a318e6f7112a3374498171a3e148cdc4da_w_20160106.patch"
+			],
+			"version": "<=3.16.0 >3.13.0",
+			"modificationTime": "2016-04-17T10:00:00.000Z",
+			"comments": [],
+			"id": "patch:npm:sequelize:20160115:1"
+		}
+	],
+	"moduleName": "sequelize",
+	"creationTime": "2016-04-01T02:09:36.180Z",
+	"publicationTime": "2016-04-01T02:09:36.180Z",
+	"modificationTime": "2016-04-01T02:09:36.180Z",
+	"disclosureTime": "2016-01-15T00:00:00.000Z"
+}

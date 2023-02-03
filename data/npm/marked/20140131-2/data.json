@@ -1,0 +1,40 @@
+{
+	"title": "VBScript Content Injection",
+	"credit": [
+		"Xiao Long"
+	],
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<=0.3.2",
+		"unaffected": ">=0.3.3"
+	},
+	"CVSSv3": "",
+	"severity": "medium",
+	"identifiers": {
+		"CWE": [
+			"CWE-74"
+		],
+		"CVE": [
+			"CVE-2015-1370"
+		],
+		"NSP": 24
+	},
+	"patches": [
+		{
+			"urls": [
+				"file://marked_20140131-2_0_0_3c191144939107c45a7fa11ab6cb88be6694a1ba.patch"
+			],
+			"version": "<=0.3.2 >=0.3.1",
+			"modificationTime": "2014-01-30T22:33:12.000Z",
+			"comments": [
+				"https://github.com/chjj/marked/commit/3c191144939107c45a7fa11ab6cb88be6694a1ba.patch"
+			],
+			"id": "patch:npm:marked:20140131-2:0"
+		}
+	],
+	"moduleName": "marked",
+	"creationTime": "2014-01-30T22:33:12.000Z",
+	"publicationTime": "2014-01-30T22:33:12.000Z",
+	"modificationTime": "2015-11-06T02:09:36.180Z",
+	"disclosureTime": "2014-01-30T22:33:12.000Z"
+}

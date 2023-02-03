@@ -1,0 +1,26 @@
+{
+	"title": "Regular Expression Denial of Service",
+	"credit": [
+		"Adam Baldwin"
+	],
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "*",
+		"unaffected": "<0.0.0"
+	},
+	"CVSSv3": "",
+	"severity": "medium",
+	"identifiers": {
+		"CWE": [
+			"CWE-400"
+		],
+		"CVE": [],
+		"NSP": 51
+	},
+	"patches": [],
+	"moduleName": "ansi2html",
+	"creationTime": "2015-11-06T02:09:36.185Z",
+	"modificationTime": "2015-11-06T02:09:36.185Z",
+	"publicationTime": "2015-11-06T02:09:36.185Z",
+	"disclosureTime": "2015-10-25T01:35:01.611Z"
+}

@@ -1,0 +1,40 @@
+{
+	"title": "Potential Command Injection",
+	"credit": [
+		"Adam Baldwin"
+	],
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<= 1.0.3",
+		"unaffected": ">= 1.0.4"
+	},
+	"CVSSv3": "",
+	"severity": "high",
+	"identifiers": {
+		"CWE": [
+			"CWE-77"
+		],
+		"CVE": [
+			"CVE-2013-7381"
+		],
+		"NSP": 20
+	},
+	"patches": [
+		{
+			"urls": [
+				"file://libnotify_20130515_0_0_8e2e7306088624503ba5eec592b502c4f97d8846.patch"
+			],
+			"version": "<= 1.0.3",
+			"modificationTime": "2013-05-15T19:30:05.000Z",
+			"comments": [
+				"https://github.com/mytrile/node-libnotify/commit/8e2e7306088624503ba5eec592b502c4f97d8846.patch"
+			],
+			"id": "patch:npm:libnotify:20130515:0"
+		}
+	],
+	"moduleName": "libnotify",
+	"creationTime": "2013-05-15T19:30:05.000Z",
+	"publicationTime": "2013-05-15T19:30:05.000Z",
+	"modificationTime": "2015-11-06T02:09:36.180Z",
+	"disclosureTime": "2013-05-15T19:30:05.000Z"
+}

@@ -1,0 +1,39 @@
+{
+	"title": "Directory Traversal",
+	"credit": [
+		"Vikram Chaitanya"
+	],
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<13.0.8",
+		"unaffected": ">=13.0.8"
+	},
+	"CVSSv2": "5.0 (MEDIUM) (AV:N/AC:L/Au:N/C:P/I:N/A:N)",
+	"CVSSv3": "",
+	"severity": "medium",
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2015-5688"
+		],
+		"NSP": 10
+	},
+	"patches": [
+		{
+			"urls": [
+				"file://geddy_20150727_0_0_3f1bacd7cfda6556f35563f3e79c60c62aa9d286.patch"
+			],
+			"version": "<13.0.8 >=0.12.1",
+			"modificationTime": "2015-07-27T12:33:48.000Z",
+			"comments": [
+				"https://github.com/geddy/geddy/commit/3f1bacd7cfda6556f35563f3e79c60c62aa9d286.patch"
+			],
+			"id": "patch:npm:geddy:20150727:0"
+		}
+	],
+	"moduleName": "geddy",
+	"creationTime": "2015-07-27T12:33:48.000Z",
+	"publicationTime": "2015-07-27T12:33:48.000Z",
+	"modificationTime": "2015-11-06T02:09:36.180Z",
+	"disclosureTime": "2015-07-27T12:33:48.000Z"
+}

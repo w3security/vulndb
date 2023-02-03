@@ -1,0 +1,38 @@
+{
+	"title": "Directory Traversal",
+	"credit": [
+		"Ilya Kantor"
+	],
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "< 0.8.4",
+		"unaffected": ">= 0.8.4"
+	},
+	"CVSSv3": "",
+	"severity": "high",
+	"identifiers": {
+		"CWE": [
+			"CWE-23"
+		],
+		"CVE": [
+			"CVE-2014-6394"
+		],
+		"NSP": 32
+	},
+	"patches": [
+		{
+			"urls": [
+				"file://send_20140912_0_0_9c6ca9b2c0b880afd3ff91ce0d211213c5fa_snyk.patch"
+			],
+			"version": "< 0.8.4 >=0.7.3",
+			"modificationTime": "2014-09-12T05:06:33.000Z",
+			"comments": [],
+			"id": "patch:npm:send:20140912:0"
+		}
+	],
+	"moduleName": "send",
+	"creationTime": "2014-09-12T05:06:33.000Z",
+	"publicationTime": "2014-09-12T05:06:33.000Z",
+	"modificationTime": "2015-11-06T02:09:36.180Z",
+	"disclosureTime": "2014-09-12T05:06:33.000Z"
+}

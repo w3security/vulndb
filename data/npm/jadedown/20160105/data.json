@@ -1,0 +1,26 @@
+{
+	"title": "Regular Expression Denial of Service",
+	"credit": [
+		"Adam Baldwin"
+	],
+	"creationTime": "2016-01-06T09:20:33.110Z",
+	"modificationTime": "2016-01-06T09:20:33.110Z",
+	"publicationTime": "2016-01-06T09:20:33.110Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "*",
+		"unaffected": "<0.0.0"
+	},
+	"CVSSv3": "",
+	"severity": "low",
+	"identifiers": {
+		"CWE": [
+			"CWE-400"
+		],
+		"CVE": [],
+		"NSP": 52
+	},
+	"patches": [],
+	"moduleName": "jadedown",
+	"disclosureTime": "2016-01-05T23:00:45.777Z"
+}

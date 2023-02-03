@@ -1,0 +1,26 @@
+{
+	"title": "Authentication Bypass in Try Mode",
+	"credit": [
+		"Alan Shaw"
+	],
+	"creationTime": "2016-01-28T09:00:03.403Z",
+	"modificationTime": "2016-01-28T09:00:03.403Z",
+	"publicationTime": "2016-01-28T09:00:03.403Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "5.1.1",
+		"unaffected": ">=5.1.2 || <5.1.1"
+	},
+	"CVSSv3": "",
+	"severity": "high",
+	"identifiers": {
+		"CWE": [
+			"CWE-592"
+		],
+		"CVE": [],
+		"NSP": 81
+	},
+	"patches": [],
+	"moduleName": "hapi-auth-jwt2",
+	"disclosureTime": "2016-01-28T07:56:52.379Z"
+}

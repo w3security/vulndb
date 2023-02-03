@@ -1,0 +1,28 @@
+{
+	"title": "Regular Expression Denial of Service",
+	"credit": [
+		"Adam Baldwin"
+	],
+	"creationTime": "2015-11-06T02:09:36.187Z",
+	"modificationTime": "2015-11-06T02:09:36.187Z",
+	"publicationTime": "2015-11-06T02:09:36.187Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "*",
+		"unaffected": "<0.0.0"
+	},
+	"CVSSv3": "",
+	"severity": "medium",
+	"identifiers": {
+		"CWE": [
+			"CWE-400"
+		],
+		"CVE": [
+			"CVE-2014-8881"
+		],
+		"NSP": 47
+	},
+	"patches": [],
+	"moduleName": "bleach",
+	"disclosureTime": "2015-10-24T20:46:42.522Z"
+}

@@ -1,0 +1,26 @@
+{
+	"title": "Content Injection",
+	"credit": [
+		"Adam Baldwin"
+	],
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<1.4.1",
+		"unaffected": ">=1.4.1"
+	},
+	"CVSSv3": "",
+	"severity": "low",
+	"identifiers": {
+		"CWE": [
+			"CWE-74"
+		],
+		"CVE": [],
+		"NSP": 30
+	},
+	"patches": [],
+	"moduleName": "remarkable",
+	"creationTime": "2014-11-13T10:33:48.000Z",
+	"publicationTime": "2014-11-13T10:33:48.000Z",
+	"modificationTime": "2015-11-06T02:09:36.180Z",
+	"disclosureTime": "2014-11-13T10:33:48.000Z"
+}

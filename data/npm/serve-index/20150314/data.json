@@ -1,0 +1,36 @@
+{
+	"title": "Cross-Site Scripting due to improper file and directory names escaping",
+	"credit": [
+		"Ivan Kozik"
+	],
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<1.6.3",
+		"unaffected": ">=1.6.3"
+	},
+	"CVSSv3": "",
+	"severity": "medium",
+	"identifiers": {
+		"CWE": [
+			"CWE-80"
+		],
+		"CVE": [],
+		"NSP": 34
+	},
+	"patches": [
+		{
+			"urls": [
+				"file://serve-index_20150314_0_0_0d135e710d717d7d9a3a3994f611214fb42e2191_snyk.patch"
+			],
+			"version": "<1.6.3 >1.5.1",
+			"modificationTime": "2015-03-13T23:24:28.000Z",
+			"comments": [],
+			"id": "patch:npm:serve-index:20150314:0"
+		}
+	],
+	"moduleName": "serve-index",
+	"creationTime": "2015-03-13T23:24:28.000Z",
+	"publicationTime": "2015-03-13T23:24:28.000Z",
+	"modificationTime": "2015-11-06T02:09:36.180Z",
+	"disclosureTime": "2015-03-13T23:24:28.000Z"
+}

@@ -1,0 +1,28 @@
+{
+	"title": "Multiple XSS Filter Bypasses",
+	"credit": [
+		"Neal Poole",
+		"Krzysztof Kotowicz"
+	],
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "< 1.1.1",
+		"unaffected": ">= 1.1.1"
+	},
+	"CVSSv3": "",
+	"severity": "medium",
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [],
+		"NSP": 41
+	},
+	"patches": [],
+	"disabled": true,
+	"moduleName": "validator",
+	"creationTime": "2013-07-05T09:29:10.000Z",
+	"publicationTime": "2013-07-05T09:29:10.000Z",
+	"modificationTime": "2015-11-06T02:09:36.180Z",
+	"disclosureTime": "2013-07-05T09:29:10.000Z"
+}

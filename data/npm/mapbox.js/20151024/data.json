@@ -1,0 +1,38 @@
+{
+	"title": "Content Injection via TileJSON attribute",
+	"credit": [
+		"John Firebaugh"
+	],
+	"creationTime": "2015-11-06T02:09:36.186Z",
+	"modificationTime": "2015-11-06T02:09:36.186Z",
+	"publicationTime": "2015-11-06T02:09:36.186Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<1.6.5 || < 2.1.7 > 2.0.0",
+		"unaffected": ">=1.6.5 <2.0.0 || >= 2.1.7"
+	},
+	"CVSSv3": "",
+	"severity": "low",
+	"identifiers": {
+		"CWE": [
+			"CWE-74"
+		],
+		"CVE": [],
+		"NSP": 49
+	},
+	"patches": [
+		{
+			"urls": [
+				"file://mapbox.js_20151024_0_0_538d229ab6767bb4c3f3969c417f9884189c1512.patch"
+			],
+			"version": "=2.1.6",
+			"modificationTime": "2015-11-24T20:39:59.852Z",
+			"comments": [
+				"https://github.com/mapbox/mapbox.js/commit/538d229ab6767bb4c3f3969c417f9884189c1512.patch"
+			],
+			"id": "patch:npm:mapbox.js:20151024:0"
+		}
+	],
+	"moduleName": "mapbox.js",
+	"disclosureTime": "2015-10-24T21:00:40.189Z"
+}

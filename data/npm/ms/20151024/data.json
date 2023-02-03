@@ -1,0 +1,81 @@
+{
+	"title": "Regular Expression Denial of Service",
+	"credit": [
+		"Adam Baldwin"
+	],
+	"creationTime": "2015-11-06T02:09:36.187Z",
+	"modificationTime": "2015-11-06T02:09:36.187Z",
+	"publicationTime": "2015-11-06T02:09:36.187Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<=0.7.0",
+		"unaffected": ">0.7.0"
+	},
+	"CVSSv3": "",
+	"severity": "low",
+	"identifiers": {
+		"CWE": [
+			"CWE-400"
+		],
+		"CVE": [],
+		"NSP": 46
+	},
+	"patches": [
+		{
+			"urls": [
+				"file://ms_20151024_0_0_48701f029417faf65e6f5e0b61a3cebe5436b07b.patch"
+			],
+			"version": "=0.7.0",
+			"modificationTime": "2015-10-24T20:39:59.852Z",
+			"comments": [],
+			"id": "patch:npm:ms:20151024:0"
+		},
+		{
+			"urls": [
+				"file://ms_20151024_1_0_48701f029417faf65e6f5e0b61a3cebe5436b07b_snyk.patch"
+			],
+			"version": "<0.7.0 >=0.6.0",
+			"modificationTime": "2015-10-24T20:39:59.852Z",
+			"comments": [],
+			"id": "patch:npm:ms:20151024:1"
+		},
+		{
+			"urls": [
+				"file://ms_20151024_2_0_48701f029417faf65e6f5e0b61a3cebe5436b07b_snyk2.patch"
+			],
+			"version": "<0.6.0 >0.3.0",
+			"modificationTime": "2015-10-24T20:39:59.852Z",
+			"comments": [],
+			"id": "patch:npm:ms:20151024:2"
+		},
+		{
+			"urls": [
+				"file://ms_20151024_3_0_48701f029417faf65e6f5e0b61a3cebe5436b07b_snyk3.patch"
+			],
+			"version": "=0.3.0",
+			"modificationTime": "2015-10-24T20:39:59.852Z",
+			"comments": [],
+			"id": "patch:npm:ms:20151024:3"
+		},
+		{
+			"urls": [
+				"file://ms_20151024_4_0_48701f029417faf65e6f5e0b61a3cebe5436b07b_snyk4.patch"
+			],
+			"version": "=0.2.0",
+			"modificationTime": "2015-10-24T20:39:59.852Z",
+			"comments": [],
+			"id": "patch:npm:ms:20151024:4"
+		},
+		{
+			"urls": [
+				"file://ms_20151024_5_0_48701f029417faf65e6f5e0b61a3cebe5436b07b_snyk5.patch"
+			],
+			"version": "=0.1.0",
+			"modificationTime": "2015-10-24T20:39:59.852Z",
+			"comments": [],
+			"id": "patch:npm:ms:20151024:5"
+		}
+	],
+	"moduleName": "ms",
+	"disclosureTime": "2015-10-24T20:39:59.852Z"
+}

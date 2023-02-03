@@ -1,0 +1,38 @@
+{
+	"title": "Command Injection due to untrusted input",
+	"credit": [
+		"Adam Baldwin"
+	],
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<= 0.0.1",
+		"unaffected": "> 0.0.1"
+	},
+	"CVSSv3": "",
+	"severity": "high",
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2014-3741"
+		],
+		"NSP": 27
+	},
+	"patches": [
+		{
+			"urls": [
+				"file://printer_20140306_0_0_e001e38738c17219a1d9dd8c31f7d82b9c0013c7.patch"
+			],
+			"version": "<= 0.0.1",
+			"modificationTime": "2014-03-06T07:33:48.000Z",
+			"comments": [
+				"https://github.com/tojocky/node-printer/commit/e001e38738c17219a1d9dd8c31f7d82b9c0013c7.patch"
+			],
+			"id": "patch:npm:printer:20140306:0"
+		}
+	],
+	"moduleName": "printer",
+	"creationTime": "2014-03-06T07:33:48.000Z",
+	"publicationTime": "2014-03-06T07:33:48.000Z",
+	"modificationTime": "2015-11-06T02:09:36.180Z",
+	"disclosureTime": "2014-03-06T07:33:48.000Z"
+}

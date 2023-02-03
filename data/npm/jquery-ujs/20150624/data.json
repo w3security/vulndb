@@ -1,0 +1,27 @@
+{
+	"title": "Cross-Site Request Forgery",
+	"credit": [
+		"Ben Toews of GitHub"
+	],
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<= 1.0.3",
+		"unaffected": ">= 1.0.4"
+	},
+	"CVSSv2": "5.0 (MEDIUM) (AV:N/AC:L/Au:N/C:P/I:N/A:N)",
+	"CVSSv3": "",
+	"severity": "medium",
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2015-1840"
+		],
+		"NSP": 15
+	},
+	"patches": [],
+	"moduleName": "jquery-ujs",
+	"creationTime": "2015-06-24T06:00:00.000Z",
+	"publicationTime": "2015-06-24T06:00:00.000Z",
+	"modificationTime": "2015-11-06T02:09:36.180Z",
+	"disclosureTime": "2015-06-24T06:00:00.000Z"
+}

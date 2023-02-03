@@ -1,0 +1,46 @@
+{
+	"title": "Insecure Defaults Allow MitM Over TLS",
+	"credit": [
+		"David Johansson"
+	],
+	"creationTime": "2016-04-26T18:00:02.845Z",
+	"modificationTime": "2016-04-26T18:00:02.845Z",
+	"disclosureTime": "2016-04-26T16:24:32.000Z",
+	"publicationTime": "2016-05-31T00:00:00.000Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<= 1.6.8",
+		"unaffected": ">= 1.6.9"
+	},
+	"CVSSv3": "CVSS:3.0/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N/E:H/RL:O/RC:C",
+	"severity": "high",
+	"identifiers": {
+		"CWE": [
+			"CWE-295",
+      "CWE-300"
+		],
+		"CVE": [],
+		"NSP": 99
+	},
+	"patches": [
+    {
+			"urls": [
+				"file://engine.io-client_20160426_0_0_2a7a011932094d4970dc68abd32e78265495a621.patch"
+			],
+			"version": "<= 1.6.8 >=1.6.0",
+			"modificationTime": "2016-06-01T23:51:35.396Z",
+			"comments": [],
+			"id": "patch:npm:engine.io-client:20160426:0"
+		},
+    {
+			"urls": [
+				"file://engine.io-client_20160426_0_1_2a7a011932094d4970dc68abd32e78265495a621.patch"
+			],
+			"version": "<1.6.0 >=1.5.0",
+      "modificationTime": "2016-06-01T23:51:35.396Z",
+			"comments": [],
+			"id": "patch:npm:engine.io-client:20160426:1"
+		}
+	],
+	"moduleName": "engine.io-client"
+}

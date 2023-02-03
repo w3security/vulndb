@@ -1,0 +1,36 @@
+{
+	"title": "XSS Filter Bypass via Encoded URL",
+	"credit": [
+		"taku0"
+	],
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<2.0.0",
+		"unaffected": ">=2.0.0"
+	},
+	"CVSSv3": "",
+	"severity": "medium",
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [],
+		"NSP": 43
+	},
+	"patches": [
+		{
+			"urls": [
+				"file://validator_20130705-1_0_0_2d5d6999541add350fb396ef02dc42ca3215049e_snyk.patch"
+			],
+			"version": "<2.0.0 >=1.5.1",
+			"modificationTime": "2014-10-27T06:33:48.000Z",
+			"comments": [],
+			"id": "patch:npm:validator:20130705-1:0"
+		}
+	],
+	"moduleName": "validator",
+	"creationTime": "2014-10-27T06:33:48.000Z",
+	"publicationTime": "2014-10-27T06:33:48.000Z",
+	"modificationTime": "2015-11-06T02:09:36.180Z",
+	"disclosureTime": "2014-10-27T06:33:48.000Z"
+}

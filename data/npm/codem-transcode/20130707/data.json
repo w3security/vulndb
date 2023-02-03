@@ -1,0 +1,26 @@
+{
+	"title": "Command Injection in ffprobe",
+	"credit": [
+		"Neal Poole"
+	],
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<0.5.0",
+		"unaffected": ">=0.5.0"
+	},
+	"CVSSv3": "",
+	"severity": "medium",
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2013-7377"
+		],
+		"NSP": 2
+	},
+	"patches": [],
+	"moduleName": "codem-transcode",
+	"creationTime": "2013-07-07T06:33:48.000Z",
+	"publicationTime": "2013-07-07T06:33:48.000Z",
+	"modificationTime": "2015-11-06T02:09:36.180Z",
+	"disclosureTime": "2013-07-07T06:33:48.000Z"
+}

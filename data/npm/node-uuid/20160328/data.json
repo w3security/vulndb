@@ -1,0 +1,26 @@
+{
+	"title": "Insecure Randomness",
+	"credit": [
+		"Fedot Praslov"
+	],
+	"creationTime": "2016-03-28T22:00:02.566Z",
+	"modificationTime": "2016-03-28T22:00:02.566Z",
+	"publicationTime": "2016-03-28T22:00:02.566Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<1.4.4",
+		"unaffected": ">=1.4.4"
+	},
+	"CVSSv3": "",
+	"severity": "low",
+	"identifiers": {
+		"CWE": [
+			"CWE-330"
+		],
+		"CVE": [],
+		"NSP": 93
+	},
+	"patches": [],
+	"moduleName": "node-uuid",
+	"disclosureTime": "2016-03-28T21:29:30.000Z"
+}

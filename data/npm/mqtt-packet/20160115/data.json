@@ -1,0 +1,24 @@
+{
+	"title": "Denial of Service",
+	"credit": [
+		"Peter Sorowka"
+	],
+	"creationTime": "2016-01-17T09:13:27.330Z",
+	"modificationTime": "2016-01-17T09:13:27.330Z",
+	"publicationTime": "2016-01-17T09:13:27.330Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<3.4.6 || > 4.0.0 <4.0.5",
+		"unaffected": ">=3.4.6 < 4.0.0|| >=4.0.5"
+	},
+	"CVSSv3": "",
+	"severity": "low",
+	"identifiers": {
+		"CWE": [],
+		"CVE": [],
+		"NSP": 75
+	},
+	"patches": [],
+	"moduleName": "mqtt-packet",
+	"disclosureTime": "2016-01-15T17:01:49.053Z"
+}

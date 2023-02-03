@@ -1,0 +1,36 @@
+{
+	"title": "SQL Injection in order/limit",
+	"credit": [
+		"Spencer Creasey"
+	],
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<=3.16.0 >=0.2.2",
+		"unaffected": "<0.2.2 || >3.16.0"
+	},
+	"CVSSv2": "",
+	"CVSSv3": "",
+	"severity": "high",
+	"identifiers": {
+		"CWE": [
+			"CWE-89"
+		],
+		"CVE": []
+	},
+	"patches": [
+		{
+			"urls": [
+				"file://sequelize_20160106_d198d78182cbf1ea3ef1706740b35813a6aa0838.patch"
+			],
+			"version": "<=3.16.0 >=3.2.0",
+			"modificationTime": "2016-04-17T10:00:00.000Z",
+			"comments": [],
+			"id": "patch:npm:sequelize:20160106:0"
+		}
+	],
+	"moduleName": "sequelize",
+	"creationTime": "2016-04-01T00:00:00.000Z",
+	"publicationTime": "2016-04-01T00:00:00.000Z",
+	"modificationTime": "2016-04-01T00:00:00.000Z",
+	"disclosureTime": "2015-01-06T00:00:00.000Z"
+}

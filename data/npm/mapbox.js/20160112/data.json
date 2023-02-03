@@ -1,0 +1,26 @@
+{
+	"title": "Content Injection via TileJSON Name",
+	"credit": [
+		"Alexandra Ulsh"
+	],
+	"creationTime": "2016-01-14T09:03:36.375Z",
+	"modificationTime": "2016-01-14T09:03:36.375Z",
+	"publicationTime": "2016-01-14T09:03:36.375Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<1.6.6 || < 2.2.4 > 2.0.0",
+		"unaffected": ">=1.6.6 <2.0.0 || >= 2.2.4"
+	},
+	"CVSSv3": "",
+	"severity": "low",
+	"identifiers": {
+		"CWE": [
+			"CWE-74"
+		],
+		"CVE": [],
+		"NSP": 74
+	},
+	"patches": [],
+	"moduleName": "mapbox.js",
+	"disclosureTime": "2016-01-12T23:35:56.853Z"
+}

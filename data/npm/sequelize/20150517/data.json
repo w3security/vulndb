@@ -1,0 +1,26 @@
+{
+	"title": "Potential SQL Injection",
+	"credit": [
+		""
+	],
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<=2.1.3",
+		"unaffected": ">=3.0.0"
+	},
+	"CVSSv2": "",
+	"CVSSv3": "",
+	"severity": "low",
+	"identifiers": {
+		"CWE": [
+			"CWE-89"
+		],
+		"CVE": []
+	},
+	"patches": [],
+	"moduleName": "sequelize",
+	"creationTime": "2016-04-01T02:09:36.180Z",
+	"publicationTime": "2016-04-01T02:09:36.180Z",
+	"modificationTime": "2016-04-01T02:09:36.180Z",
+	"disclosureTime": "2015-05-17T00:00:00.000Z"
+}

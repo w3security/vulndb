@@ -1,0 +1,40 @@
+{
+	"title": "Arbitrary JavaScript Code Execution",
+	"credit": [
+		"Jarda Kotěšovec"
+	],
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<=1.5.1",
+		"unaffected": ">=1.5.2"
+	},
+	"CVSSv3": "",
+	"severity": "high",
+	"identifiers": {
+		"CWE": [
+			"CWE-94"
+		],
+		"CVE": [
+			"CVE-2014-7205"
+		],
+		"NSP": 1
+	},
+	"patches": [
+		{
+			"urls": [
+				"file://bassmaster_20140927_0_0_b751602d8cb7194ee62a61e085069679525138c4.patch"
+			],
+			"version": "<=1.5.1 >=0.4.0 || <=0.3.0 >=0.0.1",
+			"modificationTime": "2014-09-27T05:44:48.000Z",
+			"comments": [
+				"https://github.com/hapijs/bassmaster/commit/b751602d8cb7194ee62a61e085069679525138c4.patch"
+			],
+			"id": "patch:npm:bassmaster:20140927:0"
+		}
+	],
+	"moduleName": "bassmaster",
+	"creationTime": "2014-09-27T05:44:48.000Z",
+	"publicationTime": "2014-09-27T05:44:48.000Z",
+	"modificationTime": "2015-11-06T02:09:36.180Z",
+	"disclosureTime": "2014-09-27T05:44:48.000Z"
+}

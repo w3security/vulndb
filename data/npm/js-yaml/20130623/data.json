@@ -1,0 +1,29 @@
+{
+	"title": "Code Execution due to Deserialization",
+	"credit": [
+		"Neal Poole"
+	],
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<  2.0.5",
+		"unaffected": ">= 2.0.5"
+	},
+	"CVSSv2": "6.8 (MEDIUM) (AV:N/AC:M/Au:N/C:P/I:P/A:P)",
+	"CVSSv3": "",
+	"severity": "medium",
+	"identifiers": {
+		"CWE": [
+			"CWE-20"
+		],
+		"CVE": [
+			"CVE-2013-4660"
+		],
+		"NSP": 16
+	},
+	"patches": [],
+	"moduleName": "js-yaml",
+	"creationTime": "2013-06-23T19:23:50.000Z",
+	"publicationTime": "2013-06-23T19:23:50.000Z",
+	"modificationTime": "2015-11-06T02:09:36.180Z",
+	"disclosureTime": "2013-06-23T19:23:50.000Z"
+}

@@ -1,0 +1,36 @@
+{
+	"title": "Authentication Weakness",
+	"credit": [
+		"Greg Meyer"
+	],
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<0.3.16",
+		"unaffected": ">=0.3.16"
+	},
+	"CVSSv3": "",
+	"severity": "medium",
+	"identifiers": {
+		"CWE": [
+			"CWE-287"
+		],
+		"CVE": [],
+		"NSP": 60
+	},
+	"patches": [
+		{
+			"urls": [
+				"file://v0.3.15.patch"
+			],
+			"version": "<0.3.16 >=0.3.13",
+			"modificationTime": "2015-12-05T16:00:00.000Z",
+			"comments": [],
+			"id": "patch:npm:keystone:20151204:0"
+		}
+	],
+	"moduleName": "keystone",
+	"creationTime": "2015-12-06T23:37:48.917Z",
+	"modificationTime": "2015-12-06T23:37:48.917Z",
+	"publicationTime": "2015-12-06T23:37:48.917Z",
+	"disclosureTime": "2015-12-04T17:52:25.832Z"
+}

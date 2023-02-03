@@ -1,0 +1,26 @@
+{
+	"title": "Command Injection",
+	"credit": [
+		"CodingTwinky"
+	],
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<=0.8.4",
+		"unaffected": ">=0.9.0"
+	},
+	"CVSSv3": "",
+	"severity": "high",
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2015-4130"
+		],
+		"NSP": 40
+	},
+	"patches": [],
+	"moduleName": "ungit",
+	"creationTime": "2015-01-22T07:33:48.000Z",
+	"publicationTime": "2015-01-22T07:33:48.000Z",
+	"modificationTime": "2015-11-06T02:09:36.180Z",
+	"disclosureTime": "2015-01-22T07:33:48.000Z"
+}

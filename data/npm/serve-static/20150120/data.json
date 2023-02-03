@@ -1,0 +1,24 @@
+{
+	"title": "Root Path Disclosure",
+	"credit": [],
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<1.8.1",
+		"unaffected": ">=1.8.1"
+	},
+	"CVSSv3": "",
+	"severity": "low",
+	"identifiers": {
+		"CWE": [
+			"CWE-211"
+		],
+		"CVE": [],
+		"NSP": ""
+	},
+	"patches": [],
+	"moduleName": "serve-static",
+	"creationTime": "2015-01-20T04:46:45.000Z",
+	"publicationTime": "2015-01-20T04:46:45.000Z",
+	"modificationTime": "2015-11-06T02:09:36.180Z",
+	"disclosureTime": "2015-01-20T04:46:45.000Z"
+}

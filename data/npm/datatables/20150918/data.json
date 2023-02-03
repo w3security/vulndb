@@ -1,0 +1,28 @@
+{
+	"title": "Cross-Site Scripting",
+	"credit": [
+		"Onur Yilmaz"
+	],
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<=1.10.8",
+		"unaffected": ">1.10.8"
+	},
+	"CVSSv3": "",
+	"severity": "medium",
+	"identifiers": {
+		"CWE": [
+			"CWE-80"
+		],
+		"CVE": [
+			"CVE-2015-6584"
+		],
+		"NSP": 5
+	},
+	"patches": [],
+	"moduleName": "datatables",
+	"creationTime": "2015-09-18T09:29:10.000Z",
+	"publicationTime": "2015-09-18T09:29:10.000Z",
+	"modificationTime": "2015-11-06T02:09:36.180Z",
+	"disclosureTime": "2015-09-18T09:29:10.000Z"
+}

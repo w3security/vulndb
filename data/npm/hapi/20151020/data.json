@@ -1,0 +1,24 @@
+{
+	"title": "Incorrect handling of CORS preflight request headers",
+	"credit": [
+		"Eran Hammer"
+	],
+	"creationTime": "2015-11-06T02:09:36.187Z",
+	"modificationTime": "2015-11-06T02:09:36.187Z",
+	"publicationTime": "2015-11-06T02:09:36.187Z",
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<11.0.0",
+		"unaffected": ">=11.0.0"
+	},
+	"CVSSv3": "",
+	"severity": "low",
+	"identifiers": {
+		"CWE": [],
+		"CVE": [],
+		"NSP": 45
+	},
+	"patches": [],
+	"moduleName": "hapi",
+	"disclosureTime": "2015-10-20T18:29:09.702Z"
+}

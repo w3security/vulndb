@@ -1,0 +1,35 @@
+{
+	"title": "Potential Cross-Site Scripting",
+	"credit": [
+		"Mario Heiderich"
+	],
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": ">= 1.0.0-rc.1 <1.0.0-rc.1.1 || >= 1.0.0-rc.2 <1.0.0-rc.2.1 || >= 1.0.0-rc.3 <1.0.0-rc.3.1 || >= 1.0.0-rc.4 <1.0.0-rc.4.1 || >= 1.0.0-rc.5 <1.0.0-rc.5.1 || >= 1.0.0-rc.6 <1.0.0-rc.6.1",
+		"unaffected": "< 1.0.0-rc.1 >=1.0.0-rc.1.1 || < 1.0.0-rc.2 >=1.0.0-rc.2.1 || < 1.0.0-rc.3 >=1.0.0-rc.3.1 || < 1.0.0-rc.4 >=1.0.0-rc.4.1 || < 1.0.0-rc.5 >=1.0.0-rc.5.1 || < 1.0.0-rc.6 >=1.0.0-rc.6.1"
+	},
+	"CVSSv3": "",
+	"severity": "medium",
+	"identifiers": {
+		"CWE": [
+			"CWE-79"
+		],
+		"CVE": [
+			"CVE-2013-4170"
+		],
+		"ALTERNATIVE": [
+			"npm:ember:20130105-1",
+			"npm:ember:20130105-2",
+			"npm:ember:20130105-3",
+			"npm:ember:20130105-4",
+			"npm:ember:20130105-5"
+		],
+		"NSP": ""
+	},
+	"patches": [],
+	"moduleName": "ember",
+	"creationTime": "2015-11-06T02:09:36.180Z",
+	"publicationTime": "2015-11-06T02:09:36.180Z",
+	"modificationTime": "2015-11-06T02:09:36.180Z",
+	"disclosureTime": "2015-11-06T02:09:36.180Z"
+}

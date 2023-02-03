@@ -1,0 +1,28 @@
+{
+	"title": "Regular Expression Denial of Service",
+	"credit": [
+		"Karl Düüna"
+	],
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<3.22.1",
+		"unaffected": ">=3.22.1"
+	},
+	"CVSSv3": "",
+	"severity": "medium",
+	"identifiers": {
+		"CWE": [
+			"CWE-400"
+		],
+		"CVE": [
+			"CVE-2014-8882"
+		],
+		"NSP": 42
+	},
+	"patches": [],
+	"moduleName": "validator",
+	"creationTime": "2014-11-12T08:45:48.000Z",
+	"publicationTime": "2014-11-12T08:45:48.000Z",
+	"modificationTime": "2015-11-06T02:09:36.180Z",
+	"disclosureTime": "2014-11-12T08:45:48.000Z"
+}

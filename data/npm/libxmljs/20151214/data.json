@@ -1,0 +1,41 @@
+{
+	"title": "Multiple vulnerabilities in embedded binary version of libxml2",
+	"credit": [
+		"Caleb Fenton"
+	],
+	"description": "file://README.md",
+	"semver": {
+		"vulnerable": "<= 0.16.1",
+		"unaffected": "> 0.16.1"
+	},
+	"CVSSv3": "",
+	"severity": "medium",
+	"identifiers": {
+		"CWE": [],
+		"CVE": [
+			"CVE-2015-8317",
+			"CVE-2015-8242",
+			"CVE-2015-8241",
+			"CVE-2015-8035",
+			"CVE-2015-7942",
+			"CVE-2015-7941",
+			"CVE-2015-7500",
+			"CVE-2015-7499",
+			"CVE-2015-7498",
+			"CVE-2015-7497",
+			"CVE-2015-5312",
+			"CVE-2014-3660",
+			"CVE-2013-1969",
+			"CVE-2013-0339",
+			"CVE-2014-0191",
+			"CVE-2013-0338",
+			"CVE-2012-5134"
+		]
+	},
+	"patches": [],
+	"moduleName": "libxmljs",
+	"creationTime": "2016-02-14T07:31:34.000Z",
+	"publicationTime": "2016-02-14T07:31:34.000Z",
+	"modificationTime": "2016-02-14T07:31:34.000Z",
+	"disclosureTime": "2016-02-14T07:31:34.000Z"
+}
